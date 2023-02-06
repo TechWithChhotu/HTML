@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms</title>
+  </head>
+  <body>
+    <form method="get">
+      <fieldset>
+        <legend>
+          <b><big>PMSOnline</big></b>
+        </legend>
+        <fieldset>
+          <fieldset>
+            <legend>User Information!!</legend>
+
+            <label for="Name">Name: </label>
+            <input type="text" id="Name" name="Name" placeholder="C kumar" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="Roll">Roll Number: </label>
+            <input type="number" min="1" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="ID">ID number: </label>
+            <input type="text" id="ID" name="ID" />
+
+            &nbsp;&nbsp;&nbsp;&nbsp; Gender:
+            <label for="Gender">Male</label>
+            <input type="radio" id="Gender" name="Gender" />
+            <label for="Gender">Female</label>
+            <input type="radio" id="Gender" name="Gender" />
+
+            <br />
+            <br />
+
+            <label for="Father">Father`s Name: </label>
+            <input type="text" id="Father" name="Father" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="Mother">Mother`s Name: </label>
+            <input type="text" id="Mother" name="Mother" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <!-- insert image icon -->
+            <img
+              src="https://th.bing.com/th?id=OIP.awAiMS1BCAQ2xS2lcdXGlwHaHH&w=255&h=245&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
+              alt=" Upload Image"
+              title="Upload Image"
+              width="40px"
+              height="40px"
+            />
+            <br />
+            <br />
+
+            Qualified: <label for="Qualified">10<sup>th</sup></label>
+            <input type="Checkbox" id="Qualified" name="Qualified" />
+            <label for="Qualified">12<sup>th</sup></label>
+            <input type="Checkbox" id="Qualified" name="Qualified" />
+            <label for="Qualified">Graduation</label>
+            <input type="Checkbox" id="Qualified" name="Qualified" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label type="Marks">marks: </label>
+            <input
+              type="text"
+              id="Marks"
+              name="Marks"
+              placeholder="10th marks"
+            />
+            <input
+              type="text"
+              id="Marks"
+              name="Marks"
+              placeholder="12th marks"
+            />
+            <input
+              type="text"
+              id="Marks"
+              name="Marks"
+              placeholder="Graduation marks"
+            />
+            <br />
+            <br />
+            <label for="Dob">Date of birth: </label>
+            <input type="date" id="Dob" name="Dob" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="Email">Email: </label>
+            <input
+              type="email"
+              id="Email"
+              name="Email"
+              placeholder="Ck@eg.com"
+            />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="Mobile">Mobile Number: </label>
+            <input type="text" id="Mobile" name="Mobile" value="91+ " />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="Pin Code">Pin Code: </label>
+            <input type="number" id="Pin Code" name="Pin Code" />
+            <br />
+            <br />
+            <label for="CollegeName">College Name: </label>
+            <input type="text" id="CollegeName" name="CollegeName" />
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="CollegeCode">College Code: </label>
+            <input type="text" id="CollegeCode" name="CollegeCode" />
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="CollegeCity">College City</label>
+            <input type="text" id="CollegeCity" name="CollegeCity" />
+          </fieldset>
+          <fieldset>
+            <legend>Bank Details!!</legend>
+            <label for="Bank Name">Name of Bank: </label>
+            <input type="text" id="Bank Name" name="Bank Name" />
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="Account Number">Account Number</label>
+            <input type="password" id="Account Number" name="Account Number" />
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="IFSC Code">IFSC Code</label>
+            <input type="text" id="IFSC Code" name="IFSC Code" />
+            <br /><br />
+            <label for="ACH">Name as per account: </label>
+            <input type="text" id="ACH" id="ACH" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="Branch">Branch: </label>
+            <input type="text" id="Branch" name="Branch" />
+            <br /><br />
+          </fieldset>
+          <br />
+          <input type="submit" value="Submit Now" />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="reset" value="Reset Now" />
+        </fieldset>
+        <div>
+          <b><big>Contact us: </big></b>
+          <a href="mailto: chhotustudymail@gmail.com"
+            >chhotustudymail@gmail.com</a
+          >
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
